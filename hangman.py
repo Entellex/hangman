@@ -26,7 +26,8 @@ wrong = 0
 
 def get_word():
 
-    words = ['titties']
+    # List of words; can improve by using a file or SQL database.
+    words = ['titties', 'icecream', 'candy', 'pizza', 'water', 'money', 'cars', 'clothes']
 
     return random.choice(words)
 
